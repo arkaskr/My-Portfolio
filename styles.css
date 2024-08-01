@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+body{
+    background-color: #0b1224;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #15172c;
+    height: 4.5rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin: 3rem;
+    color: white;
+    font-size: 1.4rem;
+}
+nav ul li a:hover{
+    color: #374e81;
+}
+
+.left{
+    font-size: 2rem;
+    margin-left: 5rem;
+}
+
+/* Main Body */
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 8rem;
+}
+
+.space{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#element{
+    color: #5f5fac
+}
+
+.leftsection{
+    font-size: 3rem;
+    margin-left: -2rem;
+}
+.purple{
+    color: #5f5fac;
+}
+
+.rightsection{
+    margin-top: -5rem;
+    margin-right: -4rem;
+}
+
+/* Horizontal line */
+
+.hr{
+    border: 0;
+    background-color: #1e2040;
+    height: 1px;
+    margin: 0 5.5rem;
+}
+
+/* Main body Second Section */
+
+.secondSection{
+    height: 25rem;
+    max-width:70%;
+    margin: auto;
+}
+
+.exp{
+    font-size: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Exp Horizontal Line */
+
+.hrr{
+    border: 0;
+    background-color: #46486a;
+    height: 4px;
+    width: 19%;
+    margin-left: -0.4rem;
+}
+
+/* Vertical Line */
+
+.verticle{
+    height: 10rem;
+    width: 0.1px;
+    background-color: aliceblue;
+    margin-left: 2rem;
+}
+
+/* projects and skills */
+
+.skills{
+    margin-right: 6rem;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projecthr{
+    width: 14%;
+}
+
+.skillhr{
+    width: 9%;
+    margin-right: 4.5rem;
+    margin-left: 0.5rem;
+}
+
+/* Vertical Lines */
+
+.verticalbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectvr{
+    margin-left: 5rem;
+}
+.skillvr{
+    margin-right: 8.5rem;
+}
+
+/* Footer */
+
+footer{
+    height: 13rem;
+    background-color: #14162a9e;
+}
+
+.foot{
+    font-size: 26px;
+    margin-left: 5rem;
+    padding-top: 1.5rem;
+}
+
+/* button */
+
+.btn{
+    padding: 12px;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    background: #24245252;
+    color: white;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
+.github{
+    text-decoration: none;
+    color: white;
+}
